@@ -36,7 +36,13 @@ public class Main {
         devCamila.setNome("Camila");
         devCamila.inscreverBootcamp(bootcamp);
 
-        System.out.println("Conteúdos inscritos Camila:\n" + devCamila.
+        System.out.println("\n\t\t" + bootcamp.getNome() + "\t\t");
+        System.out.println("------------------------------------------------");
+        System.out.println("Data de início: " + bootcamp.getDataInicial());
+        System.out.println("Data de encerramento: " + bootcamp.getDataFinal());
+        System.out.println("------------------------------------------------");
+
+        System.out.println("\nConteúdos inscritos Camila:\n" + devCamila.
         getConteudosInscritos());
 
         devCamila.progredir();
